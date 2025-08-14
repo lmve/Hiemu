@@ -1,6 +1,6 @@
 # Risc-V High-Performance emulator
 ## 简介
-这个项目主要记录模拟器的学习过程。因为最终实现一个 Risc-v 下的高性能模拟器，故取名 Hiemu。想深入学习可以看这里!(手搓 RISC-V 高性能模拟器)[https://ksco.cc/rvemu/]👀  
+这个项目主要记录模拟器的学习过程。因为最终实现一个 Risc-v 下的高性能模拟器，故取名 Hiemu。想深入学习可以看这里[手搓 RISC-V 高性能模拟器](https://ksco.cc/rvemu/)👀  
 
 
 本项目通过解析 ELF 文件（通常是可执行文件格式）， 加载内容到模拟的内存空间，通过解释器（interp.c）、内存管理单元（mmu.c）等模块模拟 cpu 的指令执行过程，实现类似 qemu 的二进制模拟功能。
@@ -20,5 +20,5 @@ int main(int argc, char *argv[]) {
 ```
 
 ## 参考资料
-!(ELF文件)[https://ctf-wiki.org/executable/elf/structure/basic-info/]  
-!(risc-v)[http://staff.ustc.edu.cn/~llxx/cod/reference_books/RISC-V-Reader-Chinese-v2p12017.pdf]
+[ELF文件](https://ctf-wiki.org/executable/elf/structure/basic-info/)  
+[risc-v](http://staff.ustc.edu.cn/~llxx/cod/reference_books/RISC-V-Reader-Chinese-v2p12017.pdf)
